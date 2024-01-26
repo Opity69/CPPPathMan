@@ -1,0 +1,36 @@
+﻿---
+BasedOnStyle: WebKit
+AccessModifierOffset: '-2'
+AlignAfterOpenBracket: Align
+AlignConsecutiveMacros: 'true'
+AlignConsecutiveAssignments: 'true'
+AlignConsecutiveDeclarations: 'false'
+AlignEscapedNewlines: Left
+AlignOperands: 'true'
+AlignTrailingComments: 'true'
+AllowAllArgumentsOnNextLine: 'true'
+AllowAllConstructorInitializersOnNextLine: 'true'
+AllowAllParametersOfDeclarationOnNextLine: 'true'
+AllowShortBlocksOnASingleLine: 'true'
+AllowShortCaseLabelsOnASingleLine: 'true'
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AlwaysBreakTemplateDeclarations: 'Yes'
+BreakBeforeBinaryOperators: All
+BreakBeforeBraces: Linux
+BreakBeforeTernaryOperators: 'true'
+BreakConstructorInitializers: AfterColon
+BreakInheritanceList: AfterColon
+BreakStringLiterals: 'true'
+ColumnLimit: '120'
+ContinuationIndentWidth: '4'
+DerivePointerAlignment: 'false'
+IncludeBlocks: Regroup
+IndentWidth: '4'
+MaxEmptyLinesToKeep: '2'
+NamespaceIndentation: All
+SpacesInParentheses: 'true'
+TabWidth: '4'
+UseTab: Never
+
+...
