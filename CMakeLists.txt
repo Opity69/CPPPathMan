@@ -21,14 +21,10 @@ include_directories("Include/")
 file(GLOB_RECURSE  SOURCES "Src/*.cpp")
 file(GLOB_RECURSE  INCLUDES "Include/*.hpp")
 
-
-
-
 # Create the source groups for source tree with root at CMAKE_CURRENT_SOURCE_DIR.
 source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${SOURCES} ${INCLUDES})
 add_library(CPP_PATHMAN STATIC ${SOURCES} ${INCLUDES} )
-
-#target_include_directories(CPP_PATHMAN PUBLIC "Include/")
+target_include_directories(CPP_PATHMAN PUBLIC "Include/")
 
 
 
